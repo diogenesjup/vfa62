@@ -1,0 +1,38 @@
+{
+  "name": "com.fabricadeplugins.vfa62",
+  "version": "0.0.5",
+  "description": "VFA-62 VOICE FREQUENCY ALTERATE",
+  "main": "index.html",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diogenesjup/vfa62.git"
+  },
+  "keywords": [
+    "svfa626"
+  ],
+  "author": "Fabrica de Plugins",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diogenesjup/vfa62/issues"
+  },
+  "homepage": "https://github.com/diogenesjup/vfa62#readme",
+  "devDependencies": {
+    "cordova-android": "^13.0.0",
+    "cordova-ios": "^7.1.1"
+  },
+  "cordova": {
+    "platforms": [
+      "android",
+      "ios"
+    ],
+    "plugins": {
+      "cordova-plugin-android-permissions": {},
+      "cordova-plugin-inappbrowser": {},
+      "cordova-plugin-statusbar": {},
+      "cordova-plugin-ionic-webview": {}
+    }
+  }
+}

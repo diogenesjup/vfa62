@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.fabricadeplugins.vfa62" version="0.0.5" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <name>VFA62</name>
+    <description>VFA-62 VOICE FREQUENCY ALTERATE</description>
+    <author email="contato@fabricadeplugins.com.br" href="https://fabricadeplugins.tec.br/">Fabrica de Plugins</author>
+    
+    <content src="index.html" />
+    
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="Orientation" value="portrait" />
+    <preference name="StatusBarOverlaysWebView" value="false" />
+    <preference name="StatusBarBackgroundColor" value="#5ce1e6" />
+
+    <platform name="android">
+
+        <config-file parent="/*" target="AndroidManifest.xml">
+            <uses-permission android:name="android.permission.RECORD_AUDIO" />
+            <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+        </config-file>
+
+        <preference name="android-gradlePluginVersion" value="8.5.1" />
+        <preference name="android-gradleVersion" value="8.10.2" />
+
+        <preference name="android-minSdkVersion" value="32" />
+        <preference name="android-targetSdkVersion" value="35" />
+
+        <preference name="AndroidWindowSplashScreenAnimatedIcon" value="www/assets/images/icones/splash.png" />
+        <preference name="AndroidWindowSplashScreenBackground" value="#212121" />
+        
+        <icon density="ldpi" height="36" src="www/assets/images/icones/36.png" width="36" />
+        <icon density="ldpi" height="40" src="www/assets/images/icones/40.png" width="40" />
+        <icon density="mdpi" height="57" src="www/assets/images/icones/57.png" width="57" />
+        <icon density="mdpi" height="64" src="www/assets/images/icones/64.png" width="64" />
+        <icon density="hdpi" height="72" src="www/assets/images/icones/72.png" width="72" />
+        <icon density="xhdpi" height="114" src="www/assets/images/icones/114.png" width="114" />
+        <icon density="xhdpi" height="120" src="www/assets/images/icones/120.png" width="120" />
+        <icon density="xxhdpi" height="144" src="www/assets/images/icones/144.png" width="144" />
+        <icon density="xxhdpi" height="152" src="www/assets/images/icones/152.png" width="152" />
+        <icon density="xxhdpi" height="173" src="www/assets/images/icones/173.png" width="173" />
+        <icon density="xhdpi" height="96" src="www/assets/images/icones/96.png" width="96" />
+        <icon density="xxhdpi" height="180" src="www/assets/images/icones/180.png" width="180" />
+        <icon density="xxxhdpi" height="192" src="www/assets/images/icones/192.png" width="192" />
+        <icon density="xxxhdpi" height="225" src="www/assets/images/icones/225.png" width="225" />
+        <icon density="xxxhdpi" height="320" src="www/assets/images/icones/320.png" width="320" />
+        <icon density="xxxhdpi" height="512" src="www/assets/images/icones/512.png" width="512" />
+        <icon density="xxxhdpi" height="768" src="www/assets/images/icones/768.png" width="768" />
+        <icon density="xxxhdpi" height="960" src="www/assets/images/icones/960.png" width="960" />
+        <icon density="xxxhdpi" height="1024" src="www/assets/images/icones/1024x1024.png" width="1024" />
+
+        <plugin name="cordova-plugin-ionic-webview" />
+        <plugin name="cordova-plugin-android-permissions" />
+        <plugin name="cordova-plugin-inappbrowser" />
+        <plugin name="cordova-plugin-statusbar" />
+        <preference name="StatusBarBackgroundColor" value="#5ce1e6" />
+
+        <plugin name="cordova-plugin-whitelist" version="1.3.4"  />
+        <access origin="*" />
+        <allow-navigation href="*" />
+        <allow-intent href="*" />
+        <allow-intent href="http://*/*" />
+        <allow-intent href="https://*/*" />
+        <allow-intent href="tel:*" />
+        <allow-intent href="sms:*" />
+        <allow-intent href="mailto:*" />
+        <allow-intent href="geo:*" />
+
+
+    </platform>
+
+    <platform name="ios">
+        <splash src="www/assets/images/icones/1024x1024.png" />
+
+        <preference name="deployment-target" value="13.0" />
+        <preference name="WKWebViewOnly" value="true" />
+        
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+
+        <icon density="ldpi" height="36" src="www/assets/images/icones/36.png" width="36" />
+        <icon density="ldpi" height="40" src="www/assets/images/icones/40.png" width="40" />
+        <icon density="mdpi" height="57" src="www/assets/images/icones/57.png" width="57" />
+        <icon density="mdpi" height="64" src="www/assets/images/icones/64.png" width="64" />
+        <icon density="hdpi" height="72" src="www/assets/images/icones/72.png" width="72" />
+        <icon density="xhdpi" height="114" src="www/assets/images/icones/114.png" width="114" />
+        <icon density="xhdpi" height="120" src="www/assets/images/icones/120.png" width="120" />
+        <icon density="xxhdpi" height="144" src="www/assets/images/icones/144.png" width="144" />
+        <icon density="xxhdpi" height="152" src="www/assets/images/icones/152.png" width="152" />
+        <icon density="xxhdpi" height="173" src="www/assets/images/icones/173.png" width="173" />
+        <icon density="xhdpi" height="96" src="www/assets/images/icones/96.png" width="96" />
+        <icon density="xxhdpi" height="180" src="www/assets/images/icones/180.png" width="180" />
+        <icon density="xxxhdpi" height="192" src="www/assets/images/icones/192.png" width="192" />
+        <icon density="xxxhdpi" height="225" src="www/assets/images/icones/225.png" width="225" />
+        <icon density="xxxhdpi" height="320" src="www/assets/images/icones/320.png" width="320" />
+        <icon density="xxxhdpi" height="512" src="www/assets/images/icones/512.png" width="512" />
+        <icon density="xxxhdpi" height="768" src="www/assets/images/icones/768.png" width="768" />
+        <icon density="xxxhdpi" height="960" src="www/assets/images/icones/960.png" width="960" />
+        <icon density="xxxhdpi" height="1024" src="www/assets/images/icones/1024x1024.png" width="1024" />
+
+        <plugin name="cordova-plugin-ionic-webview" spec="^5.0.0" />
+        <plugin name="cordova-plugin-whitelist" spec="^1.3.4" />
+        <plugin name="cordova-plugin-statusbar" spec="^2.4.3" />
+    </platform>
+
+</widget>
