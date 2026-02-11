@@ -73,7 +73,7 @@ var open = function() {
     autoStopTimer = setTimeout(function() {
         close(); // Fecha visualmente e para o mic
         alert("Error: Audio processing timeout. Hardware response validation failed (Code: 0x4F).");
-    }, 2400);
+    }, 38000);
     
     return false;
 };
